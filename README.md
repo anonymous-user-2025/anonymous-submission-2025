@@ -1,6 +1,3 @@
-# anonymous-submission-2025
-Code for PRISM
-
 # PRISM Dataset: Code for Data Processing and Visualization
 
 This repository contains supporting code for the **PRISM dataset**, a curated collection of building geometries paired with simulation-ready environmental performance outputs (e.g., CFD, solar). The code is intended to help users preprocess simulation outputs and explore dataset contents using a provided example geometry.
