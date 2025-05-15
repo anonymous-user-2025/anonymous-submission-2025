@@ -26,7 +26,7 @@ The **PRISM dataset** is publicly hosted on **Harvard Dataverse**:
 
 > 🔗 [https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea](https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea)
 
-A complete sample geometry folder is included in the dataset to support rapid testing and inspection. This repository assumes the sample folder is available locally and paths in the notebook or scripts are updated accordingly.
+A complete **sample geometry folder**, **building_345**, is included in the dataset to support rapid testing and inspection. This sample contains both **raw simulation outputs** (e.g., `.vtk` files) and their corresponding **pre-processed representations** (e.g., `.npy` arrays), allowing users to test visualization, processing, and modeling pipelines directly. This repository assumes the sample folder is available locally and that relevant paths in the notebook and scripts are updated accordingly.
 
 ---
 
