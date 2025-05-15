@@ -13,10 +13,10 @@ Converts simulation output files from `.vtk` format to NumPy arrays (`.npy`) for
  *Based on the [Neural-Solver-Library](https://github.com/thuml/Neural-Solver-Library). See Attribution section below.*
 
 ###  `calc_rot_npy.py`
-Post-processes `.npy` performance arrays by applying geometric transformations (e.g., rotations). Useful for data augmentation and analyzing orientation effects.
+Post-processes `.npy` performance arrays by applying rotations to points to account for varying wind directions.
 
 ### `visualizePRISM.ipynb`
-A Jupyter notebook to visualize all available modalities (geometry and performance) for a **single sample instance**. Designed to support quick exploration and understanding of dataset structure.
+A Jupyter notebook to visualize all available modalities (geometry and performance) for a **single sample instance**, available in the dataset as **building_345**. Designed to support quick exploration and understanding of dataset structure.
 
 ---
 
@@ -24,7 +24,7 @@ A Jupyter notebook to visualize all available modalities (geometry and performan
 
 The **PRISM dataset** is publicly hosted on **Harvard Dataverse**:
 
-> 🔗 [[[https://doi.org/10.7910/DVN/XXXXX](https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea)](https://doi.org/10.7910/DVN/XXXXX](https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea)) 
+> 🔗 [https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea](https://dataverse.harvard.edu/previewurl.xhtml?token=57c1017c-2ff4-4b78-8f3e-4608b3ccb5ea)
 
 A complete sample geometry folder is included in the dataset to support rapid testing and inspection. This repository assumes the sample folder is available locally and paths in the notebook or scripts are updated accordingly.
 
